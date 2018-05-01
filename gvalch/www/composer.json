@@ -1,0 +1,19 @@
+{
+    "name": "ulvbern/gvalch",
+    "description": "web engine",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ulvbern",
+            "email": "wolflirik@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "admin\\": "admin",
+            "public\\": "public",
+            "system\\": "system"
+        }
+    }
+}

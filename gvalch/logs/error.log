@@ -1,0 +1,2 @@
+[Tue May 01 05:23:22.432354 2018] [autoindex:error] [pid 24268] [client 127.0.0.1:54892] AH01276: Cannot serve directory /home/ulvbern/Server/gvalch/www/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue May 01 08:29:43.175937 2018] [php7:emerg] [pid 890] [client 127.0.0.1:58390] PHP Parse error:  syntax error, unexpected ';' in /home/ulvbern/Server/gvalch/www/index.php on line 7
