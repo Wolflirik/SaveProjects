@@ -1,2 +1,3 @@
-Установка прав пользователя: sudo sh user_premission.sh [username] [path server folder]
+Установка прав пользователя: sh user_premission.sh [username] [path server folder]
 Добавление нового хоста: sh add_host.sh [hostname]
+Удаление хоста: sh remove_host.sh [hostname]
