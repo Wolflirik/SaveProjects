@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30934a68-dbcb-4600-896f-ce5e2c66ddf6" name="Default" comment="" />
+    <list default="true" id="30934a68-dbcb-4600-896f-ce5e2c66ddf6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gvalch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gvalch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/www/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/admin/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/www/admin/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/admin/controller/common/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/admin/controller/common/Dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/admin/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/composer.phar" beforeDir="false" afterPath="$PROJECT_DIR$/www/composer.phar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/public/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/public/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/System.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/System.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/config/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/config/service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/container/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/container/Container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/AbstractProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/AbstractProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/config/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/config/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/config/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/config/Provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/database/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/database/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/database/Provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/database/driver/MySQLi.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/database/driver/MySQLi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/document/Document.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/document/Document.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/document/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/document/Provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/request/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/request/Provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/request/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/request/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/router/DispatchedRoute.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/router/DispatchedRoute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/router/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/router/Provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/router/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/router/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/core/router/UriDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/core/router/UriDispatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/system/helper/Common.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/system/helper/Common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/www/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../host/start.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../host/start.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,16 +56,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/www/composer.json</pharConfigPath>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="System.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/system/System.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="555">
               <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-              <folding>
-                <element signature="e#26#65#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -27,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/www/system/config/service.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -44,8 +91,8 @@
       <file leaf-file-name="UriDispatcher.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/system/core/router/UriDispatcher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+            <state relative-caret-position="1815">
+              <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -59,11 +106,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/system/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -95,6 +151,7 @@
         <option value="$PROJECT_DIR$/www/system/config/service.php" />
         <option value="$PROJECT_DIR$/www/admin/.htaccess" />
         <option value="$PROJECT_DIR$/www/admin/index.php" />
+        <option value="$PROJECT_DIR$/www/system/config/database.php" />
       </list>
     </option>
   </component>
@@ -107,17 +164,25 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/www/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="1366" />
     <option name="height" value="702" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,11 +240,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -205,11 +270,12 @@
       <option name="presentableId" value="Default" />
       <updated>1525151931464</updated>
       <workItem from="1525151936477" duration="5430000" />
+      <workItem from="1525341270841" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5430000" />
+    <option name="totallyTimeSpent" value="5518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="702" extended-state="6" />
@@ -217,21 +283,21 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20058565" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32996634" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32996634" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -243,8 +309,47 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/system/container/container.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/www/system/System.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/system/config/service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/system/helper/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/system/core/router/UriDispatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/admin/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/composer.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -315,17 +420,14 @@
     <entry file="file://$PROJECT_DIR$/www/system/config/service.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/system/System.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="555">
           <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-          <folding>
-            <element signature="e#26#65#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -338,8 +440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/system/core/router/UriDispatcher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        <state relative-caret-position="1815">
+          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -382,6 +484,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/system/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
