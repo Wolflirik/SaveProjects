@@ -33,9 +33,13 @@ class System{
         {
             require_once __DIR__ . '/../' . LOCATION . '/routes.php';
             $routerDispatch = $this->router->dispatch(Common::getMethod(), Common::getPathUri());
+            /**if(preg_match('~admin~', Common::getPathUri()))
+            {
+                $this->container->get('auth')->check(!preg_match('~auth~', Common::getPathUri()));
+            }**/
             if($routerDispatch == null)
             {
-                $routerDispatch = new DispatchedRoute('Error:index');
+                $routerDispatch = new DispatchedRoute('common\Error:index');
             }
             list($class, $action) = explode(':', $routerDispatch->getController(), 2);
             $controller = "\\" . LOCATION . "\\controller\\" . $class;
