@@ -7,7 +7,7 @@ class Language
     private $data = [];
     private $default = 'ru';
     private $language;
-    const LANGUAGE_PATH = '%s/%s/language/%s/%s.php';
+    const LANGUAGE_PATH = '%s/../../../%s/language/%s/%s.php';
 
     public function __construct($language)
     {

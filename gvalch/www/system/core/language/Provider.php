@@ -10,7 +10,7 @@ class Provider extends AbstractProvider{
 
     public function init()
     {
-        $language = new Language();
+        $language = new Language($this->container->get('settings')['language']);
         $this->container->set($this->name, $language);
     }
 }

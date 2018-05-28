@@ -10,6 +10,7 @@ class Controller extends AbstractConstructor{
     private $output;
     protected $child = [];
     protected $data = [];
+    protected $json = [];
     const CONTROLLER_NAMESPACE = '\\' . LOCATION . '\\controller\\%s\\%s';
     const TEMPLATE_PATH = '%s/../' . LOCATION . '/view/' . (LOCATION == 'public' ? 'default/' : '') . 'template/%s.tpl';
 
@@ -44,6 +45,7 @@ class Controller extends AbstractConstructor{
     protected function redirect($url, $status = 302){
         header('Status: ' . $status);
         header('Location: ' . str_replace(array('&amp;', "\n", "\r"), array('&', '', ''), $url));
+        exit();
     }
 
     /**
@@ -53,8 +55,8 @@ class Controller extends AbstractConstructor{
      */
     protected function getChild($child, $args = [])
     {
-        list($path, $class) = explode('/', $child);
-        $controller_namespace = sprintf(self::CONTROLLER_NAMESPACE, $path, ucfirst($class));
+        list($folder, $class) = explode('/', $child);
+        $controller_namespace = sprintf(self::CONTROLLER_NAMESPACE, $folder, ucfirst($class));
         if(class_exists($controller_namespace))
         {
             $controller = new $controller_namespace($this->container);
@@ -75,7 +77,6 @@ class Controller extends AbstractConstructor{
         {
             $this->data[basename($child)] = $this->getChild($child);
         }
-        //echo __DIR__ . '/../' . LOCATION . '/view/template/' . $this->template . '.tpl';
         $file = sprintf(self::TEMPLATE_PATH, __DIR__, $this->template);
         if (file_exists($file))
         {
@@ -99,8 +100,15 @@ class Controller extends AbstractConstructor{
     /**
      * Output html
      */
-    protected function setOutput(){
+    protected function setOutput()
+    {
         $this->render();
         echo $this->output;
+    }
+
+    protected function jsonOutput()
+    {
+        echo json_encode($this->json);
+        return 0;
     }
 }

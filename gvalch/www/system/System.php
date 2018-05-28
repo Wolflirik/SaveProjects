@@ -33,10 +33,10 @@ class System{
         {
             require_once __DIR__ . '/../' . LOCATION . '/routes.php';
             $routerDispatch = $this->router->dispatch(Common::getMethod(), Common::getPathUri());
-            /**if(preg_match('~admin~', Common::getPathUri()))
+            if(preg_match('~admin~', Common::getPathUri()))
             {
-                $this->container->get('auth')->check(!preg_match('~auth~', Common::getPathUri()));
-            }**/
+                $this->container->get('auth')->check();
+            }
             if($routerDispatch == null)
             {
                 $routerDispatch = new DispatchedRoute('common\Error:index');
@@ -45,7 +45,13 @@ class System{
             $controller = "\\" . LOCATION . "\\controller\\" . $class;
             if (class_exists($controller))
             {
+                if(!$this->container->get('auth')->getUser('logged') && !preg_match('~auth~', Common::getPathUri())){
+                    header('Status: 401');
+                    header('Location: /admin/auth');
+                    exit();
+                }
                 call_user_func_array([new $controller($this->container), $action], $routerDispatch->getParams());
+
             }
             else
             {

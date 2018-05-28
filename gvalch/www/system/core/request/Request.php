@@ -2,6 +2,8 @@
 
 namespace system\core\request;
 
+use system\helper\Cookie;
+
 class Request{
     /**
      * @var array $get

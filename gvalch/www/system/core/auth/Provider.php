@@ -11,6 +11,6 @@ class Provider extends AbstractProvider{
     public function init()
     {
         $auth = new Auth($this->container);
-        $this->ontainer->set($this->name, $auth);
+        $this->container->set($this->name, $auth);
     }
 }
